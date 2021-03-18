@@ -37,17 +37,6 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ### 导航栏 Logo
 
-你可以通过 `themeConfig.logo` 增加导航栏 Logo ，Logo 可以被放置在[公共文件目录](../guide/assets.md#public-files)：
-
-``` js
-// .vuepress/config.js
-module.exports = {
-  themeConfig: {
-    logo: '/assets/img/logo.png',
-  }
-}
-```
-
 ### 导航栏链接
 
 你可以通过 `themeConfig.nav` 增加一些导航栏链接:
